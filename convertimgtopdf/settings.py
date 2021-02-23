@@ -24,7 +24,7 @@ TEMPLATE_DIR=os.path.join(BASE_DIR,'templates')
 SECRET_KEY = 'ckn1xr@72=#h!@8r2#kdh-g&$l3xs+&ps*tk(3vbo&ga&r9oqf'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['convertimgtopdf.herokuapp.com','127.0.0.1']
 
