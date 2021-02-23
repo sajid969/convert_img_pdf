@@ -20,7 +20,7 @@ Downloading project:
 
 Clone as zip file and open it your computer or if you have git application
 
-https://github.com/sajid969/fullthroattle_labs.git
+https://github.com/sajid969/convert_img_pdf.git
 ------------------------------------------------------------------------------------------------
 
 Before running this project you need intall below list apps and packages
