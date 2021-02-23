@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% extends 'user/base.html' %}
+  {%block body_block%}
+  {% load static %}
+  <script type="text/javascript" src="{% static 'js/timer.js' %}">
+  </script>
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Image File (Covert,store and download) </h1><br><hr><br>
+      <ul>
+        <li><a href="/filefield">File upload</a></li>
+        <li><a href="/viewfile">File download</a></li>
+      </ul>
+
+
+    </div>
+  </div>
+
+
+  {%endblock%}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{%extends 'user/base.html'%}
+{% block title %}
+user
+{% endblock title %}
+user
+{% block body_block %}
+
+    <div class="container"><br><br>
+      <li><a href="/filefield">File upload</a></li><hr><hr>
+
+      {% for i in choose %}
+      <tr>
+        <a href="{% url 'convert_pdf_view' i.pk %}"><button type="button" name="button">convert to pdf</button></a>
+
+        <td><a href="{{i.choosefile.url}}" download>{{i.choosefile}}</a></td>
+
+        <br>
+        <hr>
+      </tr>
+      {% endfor %}
+
+    </div>
+
+
+
+
+
+
+  {% endblock %}
