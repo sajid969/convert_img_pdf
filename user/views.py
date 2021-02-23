@@ -46,7 +46,7 @@ def filefieldview(request,):
             a=filefield.objects.create(user=ct,choosefile=n)
             user=form.save()
             user.save()
-            return HttpResponseRedirect('/')
+            return HttpResponseRedirect('/viewfile')
     return render(request,'user/filefield.html',{'form':form})
 
 
